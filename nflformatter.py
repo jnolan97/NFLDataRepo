@@ -3,7 +3,7 @@ import csv
 start = False
 def run():
     new_data = ""
-    nfl = open("formattedweeks.txt","r")
+    nfl = open("weekswithoutwins.txt","r")
     for line in nfl:
         # print(line)
         new_data += line
